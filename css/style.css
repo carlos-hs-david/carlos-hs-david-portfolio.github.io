@@ -1,0 +1,29 @@
+/* global */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* utilidades */
+@import "./utilidades/cores.css";
+@import "./utilidades/animacao.css";
+@import "./utilidades/componentes.css";
+
+/* home */
+@import "./home/home.css";
+
+/* sobre */
+@import "./sobre/intro.css";
+@import "./sobre/projetos.css";
+@import "./sobre/ferramentas.css";
+
+/* servicos */
+@import "./servicos/servicos.css";
+
+/* contatos */
+@import "./contatos/contatos.css";
+
+/* proj por tecnologias */
+@import "./proj-por-tech/proj.css";
+
+/* proj-pg */
+@import "./proj-pg/proj-pg.css";

@@ -1,0 +1,248 @@
+/* .intro-bg {
+    background: var(--cor-10);    
+} */
+
+.intro-bg {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0px 40px;
+    padding-bottom: 60px;
+    padding-top: 120px;
+    background-color: var(--cor-10);               
+}
+
+
+/* divisoria */
+
+.divisoria {
+    background-color: var(--cor-9);
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 2px;
+    width: auto;
+}
+
+/* intro conteudo */
+
+.intro-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: left;
+    padding-bottom: 0px;    
+
+}
+
+.intro-conteudo p  {
+    text-align: left;
+    margin-left: 150px;    
+    padding-top: 60px;    
+    font-size: 1.1rem;
+    font-family:'Roboto',sans-serif;
+    font-weight: 400; 
+    width: 40ch;                        
+}  
+
+
+
+
+.intro-titulo {  
+    padding-top: 60px;
+    padding-bottom: 30px;         
+}
+
+.intro-conteudo h1 {
+    margin-left: 150px;    
+    font-size: 3rem;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 400;
+    width: 13ch;
+    color: #f8f0a7;
+    padding-top: 0px;   
+}
+
+.intro-img { 
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    margin-left: 200px;   
+    margin-right: 150px;
+                            
+}
+
+.intro-img img {    
+    object-fit: cover;
+    padding-right: 30px; 
+                 
+}
+
+
+@media (min-width: 1800px) {
+    .intro-conteudo p {
+        margin-left: 300px;       
+    }
+    .intro-conteudo h1 {
+        margin-left: 300px;
+    }    
+    .intro-img { 
+        margin-right: 300px;
+    }
+    .intro-conteudo p {
+        width: 60ch; 
+    }
+    .divisoria {    
+        margin-right: 300px;
+        margin-left: 300px;
+    }
+}
+
+
+
+
+
+@media (max-width: 1300px) {
+    .intro-conteudo p {
+        width: 40ch;
+        margin-left:60px; 
+    }
+    .intro-conteudo h1 {
+        margin-left:60px;
+    }
+
+    .intro-img { 
+        margin-left: 100px;   
+        margin-right: 60px;                        
+    }
+    
+    .divisoria {    
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+}
+
+
+
+@media (max-width: 1000px) {
+
+    .intro-conteudo p {
+        font-size: 1rem;
+        width: 25ch;
+        padding-top: 30px;  
+    }
+    .intro-conteudo h1 {
+        font-size: 2rem;
+    }
+
+    .intro-img { 
+        margin-left: 50px;   
+        margin-right: 60px;                        
+    }
+   
+}
+
+@media (max-width: 800px) {
+    .intro-bg {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px 40px;
+        padding-bottom: 60px;
+        padding-top: 60px;        
+    }
+
+    .intro-img { 
+        display: flex;
+        flex-direction:row;
+        justify-content: start;   
+        margin-left: 60px;                                
+    }
+
+    .intro-conteudo p {
+        
+        width: 60ch;
+        
+    }
+
+    .intro-img img {    
+        padding-top: 30px;              
+    }    
+    
+}
+    
+    
+
+
+@media (max-width: 650px) {
+    
+    .intro-conteudo p {
+        
+        width: 40ch;
+        
+    }
+
+} 
+
+@media (max-width: 500px) { 
+    
+    .intro-conteudo p {
+        
+        width: 30ch;
+        
+    }
+    .intro-conteudo p {
+        font-size: 0.8rem;
+        padding-top: 30px;
+    }
+    .intro-conteudo h1 {
+        font-size: 1.5rem;
+    }
+    /* .intro-img img {    
+        max-width: 75%;
+        max-height: 75%;                      
+    }   */
+}
+
+
+@media (max-width: 450px) {  
+    .intro-conteudo p {
+        font-size: 0.8rem;
+        margin-left: 30px;        
+    }
+    .intro-conteudo h1 {
+        font-size: 1.3rem;
+        margin-left: 30px; 
+    }
+    .intro-img {    
+        margin-left: 30px;              
+    }
+    .intro-bg {        
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .divisoria {    
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    .intro-img img {    
+        padding-bottom: 30px;              
+    }   
+    
+}
+
+
+
+@media (max-width: 300px) {  
+    .intro-conteudo p {
+        font-size: 0.5rem;               
+    }
+    .intro-conteudo h1 {
+        font-size: 1.1rem;
+         
+    }
+      
+}
+
+
+
+
+    
+
