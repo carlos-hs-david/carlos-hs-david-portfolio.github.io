@@ -29,7 +29,8 @@
     flex-direction: column;
     justify-content: end;
     text-align: left;
-    padding-bottom: 0px;    
+    padding-bottom: 0px;
+       
 
 }
 
@@ -126,7 +127,7 @@
 
     .intro-conteudo p {
         font-size: 1rem;
-        width: 25ch;
+        width: 40ch;
         padding-top: 30px;  
     }
     .intro-conteudo h1 {
@@ -145,26 +146,35 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 0px 40px;
-        padding-bottom: 60px;
-        padding-top: 60px;        
+        padding-bottom: 30px;
+        padding-top: 30px;        
+    }
+
+    .intro-conteudo h1 {
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     .intro-img { 
         display: flex;
         flex-direction:row;
-        justify-content: start;   
+        justify-content: left;   
         margin-left: 60px;                                
     }
 
-    .intro-conteudo p {
-        
-        width: 60ch;
-        
-    }
+   
 
     .intro-img img {    
         padding-top: 30px;              
-    }    
+    }
+    
+    .intro-conteudo p {
+        font-size: 1rem;
+        width: 45ch;
+        padding-top: 30px; 
+        margin-right: 30px;
+        margin-left: 30px 
+    }
     
 }
     
@@ -183,18 +193,12 @@
 
 @media (max-width: 500px) { 
     
-    .intro-conteudo p {
-        
-        width: 30ch;
-        
-    }
-    .intro-conteudo p {
-        font-size: 0.8rem;
+    
+    .intro-conteudo p {        
         padding-top: 30px;
+         width: 40ch;
     }
-    .intro-conteudo h1 {
-        font-size: 1.5rem;
-    }
+    
     /* .intro-img img {    
         max-width: 75%;
         max-height: 75%;                      
@@ -203,14 +207,8 @@
 
 
 @media (max-width: 450px) {  
-    .intro-conteudo p {
-        font-size: 0.8rem;
-        margin-left: 30px;        
-    }
-    .intro-conteudo h1 {
-        font-size: 1.3rem;
-        margin-left: 30px; 
-    }
+    
+   
     .intro-img {    
         margin-left: 30px;              
     }
@@ -240,6 +238,8 @@
     }
       
 }
+
+
 
 
 

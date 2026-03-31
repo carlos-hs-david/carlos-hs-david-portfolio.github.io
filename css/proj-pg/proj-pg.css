@@ -762,8 +762,8 @@
     /* sobre */
 
     .p-proj-sobre  {
-        margin-left: 60px;
-        margin-right: 60px;    
+        margin-left: 30px;
+        margin-right: 10px;    
        
     }
 
@@ -1003,7 +1003,7 @@
 
 .p-proj-benchmark p {
     font-size: 1rem;
-    width: 40ch;
+    width: 70ch;
     padding-bottom: 12px;
 }
 
@@ -1016,6 +1016,11 @@
 
 /* sobre */
 
+.p-proj-sobre {
+        margin-left: 30px;
+        margin-right: 30px;                
+    }
+
 .p-proj-sobre h1 {     
     font-size: 1.5rem;
     padding-top: 18px;
@@ -1027,7 +1032,7 @@
 }
 
 .p-proj-sobre p {
-    width: 40ch;
+    width: 30ch;
 }
 
 .p-imagem-sobre {
@@ -1349,7 +1354,7 @@
     }
     
     .p-proj-sobre p {
-        width: 30ch;
+        width: 40ch;
     }  
     
     .p-imagem-sobre a{    
